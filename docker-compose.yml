@@ -1,0 +1,9 @@
+services:
+  web:
+    image: rest-apis-flask-python
+    container_name: rest-apis-flask-python-container
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
