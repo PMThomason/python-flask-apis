@@ -1,5 +1,12 @@
 
 
+Create virtual environment:
+```
+python3 -m venv .venv
+```
+
+
+
 Build Docker image:
 ```
 docker build -t rest-apis-flask-python . 
