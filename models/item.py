@@ -1,8 +1,5 @@
 from db import db
 from sqlalchemy import Column, Integer, String, Float, create_engine, ForeignKey
-from sqlalchemy.orm import relationship, declarative_base, sessionmaker
-
-Base = declarative_base()
 
 class ItemModel(db.Model):
     __tablename__ = "items"
